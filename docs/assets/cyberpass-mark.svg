@@ -1,0 +1,6 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Symbole CyberPass</title>
+  <rect width="128" height="128" rx="34" fill="#071A2E"/>
+  <path d="M87 35.5C80.5 30.7 72.4 28 63.7 28C41.6 28 24 45.9 24 68C24 90.1 41.6 108 63.7 108C72.4 108 80.5 105.3 87 100.5" stroke="#65E5C5" stroke-width="12" stroke-linecap="round"/>
+  <path d="M59 49H98M59 68H88M59 87H98" stroke="#F7FCFF" stroke-width="9" stroke-linecap="round"/>
+</svg>

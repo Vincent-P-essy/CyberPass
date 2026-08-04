@@ -1,0 +1,59 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CyberPass</title>
+  <desc id="desc">Centralisez les preuves de cybersécurité, répondez aux questionnaires et partagez un passeport maîtrisé.</desc>
+  <defs>
+    <linearGradient id="background" x1="80" y1="16" x2="1510" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071A2E"/>
+      <stop offset="0.56" stop-color="#0B2440"/>
+      <stop offset="1" stop-color="#112B55"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="1010" y1="95" x2="1388" y2="428" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58E6C2"/>
+      <stop offset="1" stop-color="#6B8CFF"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#A7BED8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#020A13" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="520" rx="28" fill="url(#background)"/>
+  <rect width="1600" height="520" rx="28" fill="url(#grid)"/>
+  <g transform="translate(96 80)">
+    <g aria-label="Symbole CyberPass">
+      <rect width="76" height="76" rx="21" fill="#EAFBF7" fill-opacity="0.08" stroke="#90F0D8" stroke-opacity="0.35"/>
+      <path d="M52 22.5C48.1 19.6 43.25 18 38 18C24.75 18 14 28.75 14 42C14 55.25 24.75 66 38 66C43.25 66 48.1 64.4 52 61.5" stroke="#65E5C5" stroke-width="7" stroke-linecap="round"/>
+      <path d="M35 31H58M35 42H52M35 53H58" stroke="#F7FCFF" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <text x="98" y="56" fill="#F7FCFF" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" letter-spacing="-2">CyberPass</text>
+
+    <text x="0" y="162" fill="#F7FCFF" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" letter-spacing="-1.7">
+      <tspan x="0" dy="0">Prove your security once.</tspan>
+      <tspan x="0" dy="62" fill="#72E6C9">Sell everywhere.</tspan>
+    </text>
+
+    <text x="0" y="312" fill="#B9CCDE" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400">
+      <tspan x="0" dy="0">Preuves sourcées · Questionnaires assistés · Partage maîtrisé</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(965 70)" filter="url(#shadow)">
+    <path d="M82 85L252 24L426 104L393 316L218 398L50 302L82 85Z" fill="#0A1E35" stroke="#7DE8CE" stroke-opacity="0.26" stroke-width="2"/>
+    <path d="M252 24L218 398M82 85L393 316M426 104L50 302" stroke="url(#signal)" stroke-opacity="0.32" stroke-width="2"/>
+    <path d="M82 85L228 194L426 104M50 302L228 194L393 316" stroke="#91A8C1" stroke-opacity="0.18" stroke-width="2"/>
+
+    <circle cx="252" cy="24" r="15" fill="#0B2440" stroke="#70E5C8" stroke-width="5"/>
+    <circle cx="82" cy="85" r="15" fill="#0B2440" stroke="#6C9DFF" stroke-width="5"/>
+    <circle cx="426" cy="104" r="15" fill="#0B2440" stroke="#70E5C8" stroke-width="5"/>
+    <circle cx="50" cy="302" r="15" fill="#0B2440" stroke="#70E5C8" stroke-width="5"/>
+    <circle cx="393" cy="316" r="15" fill="#0B2440" stroke="#6C9DFF" stroke-width="5"/>
+    <circle cx="218" cy="398" r="15" fill="#0B2440" stroke="#70E5C8" stroke-width="5"/>
+
+    <circle cx="228" cy="194" r="64" fill="#102E4B" stroke="url(#signal)" stroke-width="3"/>
+    <path d="M197 193.5L218 214.5L260 172.5" stroke="#78E8CC" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="169" y="246" width="118" height="34" rx="17" fill="#66E3C3" fill-opacity="0.12" stroke="#66E3C3" stroke-opacity="0.28"/>
+    <text x="228" y="269" text-anchor="middle" fill="#9BF1DC" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.4">SOURCÉ</text>
+  </g>
+</svg>

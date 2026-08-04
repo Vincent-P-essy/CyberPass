@@ -1,0 +1,21 @@
+{
+  "name": "cyberpass",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prove your security once. Sell everywhere.",
+  "author": "Plessy Vincent",
+  "workspaces": [
+    "apps/web",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm --workspace @cyberpass/web run dev",
+    "build": "npm --workspace @cyberpass/web run build",
+    "lint": "npm --workspace @cyberpass/web run lint",
+    "typecheck": "npm --workspace @cyberpass/web run typecheck",
+    "test": "npm --workspace @cyberpass/web run test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

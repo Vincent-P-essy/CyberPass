@@ -1,0 +1,24 @@
+name: Proposition d’évolution
+description: Proposer une amélioration centrée sur un besoin utilisateur.
+title: "[Évolution]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problème à résoudre
+      description: Qui rencontre ce problème, dans quel contexte et avec quel impact ?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Résultat attendu
+      description: Décrivez le résultat, sans imposer nécessairement une solution.
+    validations:
+      required: true
+  - type: textarea
+    id: security
+    attributes:
+      label: Impacts sécurité et confidentialité
+      description: Permissions, données, partage externe, imports ou intégrations concernés.

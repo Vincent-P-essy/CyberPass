@@ -1,0 +1,42 @@
+name: Rapport de bug
+description: Signaler un comportement reproductible sans donnée sensible.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Merci de remplacer toute donnée réelle par un exemple fictif.
+  - type: textarea
+    id: description
+    attributes:
+      label: Comportement observé
+      description: Décrivez précisément le problème et son impact.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes de reproduction
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportement attendu
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version ou commit
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Vérification
+      options:
+        - label: Ce rapport ne contient aucun secret, jeton, fichier de preuve ou donnée client.
+          required: true

@@ -1,0 +1,2 @@
+# Dépendances de développement exactes, avec hashes.
+-r requirements-dev.lock
