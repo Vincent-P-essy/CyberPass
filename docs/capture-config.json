@@ -1,0 +1,39 @@
+{
+  "jobs": [
+    {
+      "root": ".",
+      "label": "CyberPass",
+      "caption": "The running web homepage and local component checks. Database, S3 storage and authenticated password workflows are not exercised.",
+      "setup": [
+        [
+          "npm",
+          "ci",
+          "--ignore-scripts"
+        ]
+      ],
+      "commands": [
+        [
+          "npm",
+          "run",
+          "test",
+          "--workspace",
+          "@cyberpass/web",
+          "--",
+          "--run"
+        ]
+      ],
+      "server": [
+        "npm",
+        "run",
+        "dev",
+        "--workspace",
+        "@cyberpass/web",
+        "--",
+        "--hostname",
+        "127.0.0.1",
+        "--port",
+        "8650"
+      ]
+    }
+  ]
+}
