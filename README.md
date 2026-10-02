@@ -53,13 +53,14 @@ CyberPass organise ce travail autour de quatre objets traçables :
 - **Traçabilité** — événements d’authentification et d’actions métier sans mots de passe, cookies, tokens, fichiers ni réponses complètes.
 - **Expérience produit** — interface française responsive, états vides, erreurs honnêtes, mode démonstration signalé et parcours clavier cohérent.
 
+
 ## Aperçu
 
-<p align="center">
-  <img src="docs/assets/dashboard.png" alt="Tableau de bord responsive de CyberPass" width="100%" />
-</p>
+![Vue d’ensemble du dossier documentaire en mode démonstration](docs/screenshots/dashboard-overview.png)
 
-L’interface n’affiche pas de « score de sécurité » artificiel : elle distingue la complétion documentaire, les contrôles revus, les preuves arrivant à expiration et les réponses qui attendent une décision humaine.
+![Coffre de preuves en mode démonstration](docs/screenshots/evidence-library.png)
+
+Captures du frontend réellement exécuté avec le mode de démonstration intégré (`apps/web/lib/demo-data.ts`). Les données sont fictives et l’API n’est pas connectée dans ces vues.
 
 ## Le parcours qui compte
 
